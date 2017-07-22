@@ -1,0 +1,104 @@
+@import "https://fonts.googleapis.com/css?family=Baloo+Bhaina|Chewy|Macondo|Pacifico|Gloria+Hallelujah";
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100%;
+  width: 100%;
+  max-width: 100% !important;
+  padding-top: 3em;
+  min-width:1050px;
+  overflow: scroll;
+  overflow-x: hidden;
+  background: url(https://cdn.shutterstock.com/shutterstock/videos/7634221/thumb/1.jpg?i10c=img.resize) no-repeat center center fixed;
+  background-size:cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar{
+  margin-bottom:0;
+}
+.navbar-toggle .icon-bar{
+   background-color: #F73A00 !important;
+   color: black;
+   border-color: black;
+   background-color: black;
+ }
+.navbar-inverse .navbar-nav,.navbar-fixed-top{
+  background: #000000;
+
+}
+.navbar-inverse .navbar-nav>li>a{
+  color: #F73A00;
+  font-family:Baloo Bhaina;
+  font-size: x-large;
+}
+  .navbar-brand {
+      color: :#F73A00 !important;
+      font-family: Chewy;
+      font-size: 3em;
+  }
+.navbar-inverse .navbar-nav>li>a:hover{
+   background: #FF0505;
+   color: white;
+   border-radius: 5%;
+ }
+
+ /*.navbar-inverse .navbar-nav>li>a:focus{
+    background: #FF0505;
+    color: white;
+    border-radius: 5%;
+  }*/
+ .navbar-brand{
+   cursor: default;
+ }
+ /*.modal-backdrop {
+    z-index: 1020;
+}*/
+/*.modal-dialog{
+  max-height: 80% !important;
+}*/
+ #flames{
+   background: url('../pics/flames.gif');
+   width: 100%;
+ }
+ #carousel-example-generic{
+   width:100% !important;
+ }
+.carousel-inner>.item>img {
+    line-height: 1;
+    width: 100%;
+    height: 42em !important;
+}
+}
+
+.flipbook-viewport,  .container {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+}
+#menu_container{
+  position: relative !important;
+}
+#contact{
+  text-align: center;
+  color: #ffffff;
+}
+#contact_text{
+  font-family: Gloria+Hallelujah;
+}
+.fa-phone {
+  color: white;
+ background-color:transparent;
+ border-radius: 50%;
+ border: 0.1em solid white;
+ padding:10px;
+}
+.panel{
+  border: none;
+}
